@@ -457,23 +457,19 @@ img {
   color: var(--main-text-color);
 }
 
-.work-section {
-  padding-bottom: 94px;
-}
-
-.work-list {
+.work__list {
   display: flex;
 }
 
-.work-list-item:not(:first-child) {
+.work__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.work-list-item {
+.work__item {
   position: relative;
 }
 
-.work-label {
+.work__label {
   position: absolute;
   display: flex;
   justify-content: center;
