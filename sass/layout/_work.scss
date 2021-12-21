@@ -1,15 +1,15 @@
-.work__list {
+.work-list {
   display: flex;
 }
-.work__item:not(:first-child) {
+.work-list__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.work__item {
+.work-list__item {
   position: relative;
 }
 
-.work__label {
+.work-list__label {
   position: absolute;
   display: flex;
   justify-content: center;

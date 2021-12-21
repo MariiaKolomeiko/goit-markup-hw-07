@@ -1,12 +1,16 @@
-.rules__list {
+.rules-section {
+  padding-top: 94px;
+}
+
+.rules-list {
   display: flex;
 }
 
-.rules__item:not(:first-child) {
+.rules-list__item:not(:first-child) {
   margin-left: 30px;
 }
 
-.rules__picture {
+.rules-list__picture {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,7 +20,7 @@
   margin-bottom: 30px;
 }
 
-.rules__title {
+.rules-list__title {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -26,7 +30,7 @@
   margin-bottom: 10px;
 }
 
-.rules__text {
+.rules-list__text {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
